@@ -24,10 +24,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install dependencies
-        run: npm install
+        run: cd cise_ass1a_worksheet2-frontend && npm install
 
       - name: Run the tests
-        run: npm test
+        run: cd cise_ass1a_worksheet2-frontend && npm test
 
       - name: Build
-        run: npm run build
+        run: cd cise_ass1a_worksheet2-frontend && npm run build
