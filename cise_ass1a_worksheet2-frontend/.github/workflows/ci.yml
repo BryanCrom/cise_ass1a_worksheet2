@@ -1,4 +1,4 @@
-name: CI_ction
+name: CI_action
 
 on:
   push:
